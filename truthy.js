@@ -33,3 +33,5 @@ console.log(val1);
 // Ternary operator
 
 //conditon ? true : false
+const iceTeaPrice = 70
+iceTeaPrice <=80 ? console.log("less thaan 80"): console.log("more than 80")
