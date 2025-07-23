@@ -31,5 +31,5 @@ const shopingcart = [
 ]
 
 
-const priceTopay = shopingcart.reduce(   (acc,item) => acc+item.price), 0 )
+const priceTopay = shopingcart.reduce(   (acc,item) => acc+item.price, 0 )
 console.log(priceTopay);
